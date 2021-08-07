@@ -1,0 +1,154 @@
+@font-face{
+    font-family:kaushan;
+    src : url(./font/KaushanScript-Regular.otf);
+}
+
+@font-face{
+    font-family: PlayfairDisplay;
+    src : url(./font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+header{
+    background-image:url(./img/fond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+
+}
+
+nav{
+    display: block;
+    background-color:rgba(255, 255, 255, 0.157);
+}
+
+ul{
+    text-align: center;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    font-family:kaushan;
+    font-size:20px;
+    margin:25px;
+    padding-right:25px;
+}
+
+i,a {
+display:block;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    text-align:center;
+    margin: 0px;
+    background-color:rgba(255, 255, 255, 0.034);
+    
+    
+}
+
+p{
+    font-family:kaushan;
+    font-size:25px;
+    text-align:center;
+    margin-top: 35px;
+    color:white;
+}
+
+h2 {
+   text-align:center;
+   font-family:PlayfairDisplay;
+}
+
+th {
+    
+    font-family: kaushan;
+    font-size:20px;
+}
+ td{
+    font-family:PlayfairDisplay; 
+    font-size:12px;
+ }
+
+                                                                           /* STYLE______________TABLE */        
+                                                                           
+table{
+    width:90%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+ table, th, td {
+    border: 1px solid rgb(229 222 230);
+    padding: 2px;
+    padding-inline: 100px;
+}
+
+th {
+    background-color:#a073cf;
+}
+
+   td{
+    background-color:#f2f2f2;   
+  }
+
+                                                                          /* STYLE______________FORM */  
+
+
+
+form{
+    margin: 5px 216px;  
+    margin-right: 255px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+fieldset{
+    text-align: center;
+    padding: 40px;
+    border-block-width: 1px;
+}
+legend{
+    font-family:PlayfairDisplay;
+    font-size:19px;
+    color: rgb(98, 93, 93);
+}
+
+label{
+    font-family:PlayfairDisplay;
+    font-size:13px;
+    color: rgb(98, 93, 93);
+}
+button{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 2px 18px;
+    background-color:#a073cf;
+    font-family:arial;
+}
+
+                                                                          /* footer______________FORM */  
+
+.p_footer {
+    font-family:PlayfairDisplay;
+    font-size: 11px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+.p_footer *{
+    display: inline-block;
+    color: white;
+    
+}
+
+footer{
+    margin: 0px 100px;
+}
+
+.select{
+    width: 100%;
+}
